@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shady Amr - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <meta name="description"
+        content="Shady Amr - Programmer & Problem Solving Enthusiast. Portfolio showcasing projects, skills, and contact." />
+    <meta name="keywords"
+        content="Shady Amr, portfolio, programming, problem solving, ICPC, C++, Python, web development" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='48' fill='%23ff6600'/>
+    <text x='50' y='65' font-size='58' text-anchor='middle' fill='white' font-family='Arial'>S</text></svg>">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    
+    <header>
+        <div class="container nav">
+            <a class="brand" href="#home">
+                <strong>SHADY AMR</strong>
+            </a>
+            <nav class="navlinks" id="navlinks">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#Achievements">Achievements</a>
+                <a href="#contact">Contact</a>
+                <button class="btn" id="themeToggle" aria-label="Toggle theme">🌗 Theme</button>
+            </nav>
+            <button class="menu-btn" id="menuBtn" aria-label="Toggle menu">☰</button>
+        </div>
+    </header>
+
+    
+    <section class="hero container" id="home">
+        <div class="hero-grid">
+            <div>
+                <div class="eyebrow reveal"><span class="glow-dot"></span> Available for freelance projects</div>
+                <h1 class="reveal" style="transition-delay:.06s">Hi, I'm Shady -
+                    <span
+                        style="background:linear-gradient(135deg,var(--accent),var(--accent-2));-webkit-background-clip:text;background-clip:text;color:transparent">Full
+                        Stack Developer </span>
+                </h1>
+                <p class="lead reveal" style="transition-delay:.12s">I develop full-stack web solutions that combine
+                    responsive, engaging interfaces with robust, scalable backends to deliver seamless and high-quality
+                    digital experiences.</p>
+                <div class="cta reveal" style="transition-delay:.18s">
+                    <a class="btn primary" href="#projects">See Projects</a>
+                    <a class="btn" href="#contact">Contact Me</a>
+                </div>
+            </div>
+            <div class="avatar-card reveal" style="transition-delay:.2s">
+                <img class="avatar" src="./assets/shady.jpg" alt="Priyal portrait placeholder" />
+                <div class="rings" aria-hidden="true"></div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="container" id="about">
+        <h2 class="section-title reveal">About Me</h2>
+        <div class="about">
+            <div class="card reveal">
+
+                
+                <p style="max-width:800px; margin:0 auto; line-height:1.6;">
+                    Full Stack Web Developer with strong expertise in building scalable back-end systems
+                    and responsive, interactive front-end experiences. Skilled in modern web technologies
+                    and passionate about crafting seamless digital solutions. Fluent in English and Arabic
+                    with a solid background in competitive programming and problem-solving.
+                </p>
+
+
+            </div>
+        </div>
+    </section>
+
+
+    
+    <section class="container" id="skills">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills-grid">
+            
+            <div class="skills-category">
+                <h3>Languages</h3>
+                <div class="skills-icons">
+                    <div class="pentagon"><img src="https://skillicons.dev/icons?i=cpp" alt="C++"></div>
+                    <div class="pentagon"><img src="https://skillicons.dev/icons?i=cs" alt="C#"></div>
+                    <div class="pentagon"><img src="https://skillicons.dev/icons?i=html" alt="HTML"></div>
+                    <div class="pentagon"><img src="https://skillicons.dev/icons?i=css" alt="CSS"></div>
+                    <div class="pentagon"><img src="https://skillicons.dev/icons?i=js" alt="JavaScript"></div>
+                    <div class="pentagon"><img src="https://skillicons.dev/icons?i=py" alt="Python"></div>
+                </div>
+            </div>
+
+            
+            <div class="skills-category">
+                <h3>Tools</h3>
+                <div class="skills-icons">
+                    <div class="pentagon"><img src="https://skillicons.dev/icons?i=git" alt="Git"></div>
+                    <div class="pentagon"><img src="https://skillicons.dev/icons?i=github" alt="GitHub"></div>
+                    <div class="pentagon"><img src="https://skillicons.dev/icons?i=vscode" alt="VS Code"></div>
+                    <div class="pentagon"><img src="https://skillicons.dev/icons?i=mysql" alt="MySQL"></div>
+                    <div class="pentagon"><img src="https://skillicons.dev/icons?i=notion" alt="Notion"></div>
+                    <div class="pentagon"><img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-original.svg"
+                            alt="SQL Server"></div>
+                </div>
+            </div>
+
+            
+            <div class="skills-category">
+                <h3>Libraries & Frameworks</h3>
+                <div class="skills-icons">
+                    <div class="pentagon"><img src="https://skillicons.dev/icons?i=react" alt="React"></div>
+                    <div class="pentagon"><img src="https://skillicons.dev/icons?i=flutter" alt="Flutter"></div>
+                    <div class="pentagon"><img src="https://skillicons.dev/icons?i=dotnet" alt=".NET"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    
+    <section class="container" id="projects">
+        <h2 class="section-title reveal">Featured Projects</h2>
+        <div class="grid">
+            <article class="card reveal">
+                <div class="thumb">
+                    <img src="https://opengraph.githubassets.com/1/shadyamr504/TagIt-Bot" alt="TagIt Bot Preview">
+                </div>
+                <div class="content">
+                    <h3>TagIt Bot - Telegram Link Organizer</h3>
+                    <p>TagIt is a simple Telegram bot that helps you organize and access your links easily using custom
+                        tags.</p>
+                    <span class="tag">telegram-bot-api</span>
+                    <span class="tag">telegram-bot</span>
+                    <a class="btn" href="https://github.com/shadyamr504/TagIt-Bot" target="_blank">Demo</a>
+                </div>
+            </article>
+            <article class="card reveal" style="transition-delay:.04s">
+                <div class="thumb">
+                    <img src="https://opengraph.githubassets.com/1/shadyamr504/Smart-Todo-List"
+                        alt="Smart-Todo-List Preview">
+                </div>
+                <div class="content">
+                    <h3>Smart-Todo-List</h3>
+                    <p>This Task Management App helps users organize activities, manage priorities, and track progress
+                        with a simple, modern interface.</p>
+                    <span class="tag">frontend</span>
+                    <span class="tag">todo-list</span>
+                    <a class="btn" href="https://github.com/shadyamr504/Smart-Todo-List" target="_blank">Demo</a>
+                </div>
+            </article>
+            <article class="card reveal" style="transition-delay:.08s">
+                <div class="thumb">
+                    <img src="https://opengraph.githubassets.com/1/shadyamr504/Company-DataBase"
+                        alt="Company-DataBase Preview">
+                </div>
+                <div class="content">
+                    <h3>Company-DataBase</h3>
+                    <p>A simple C# Windows Forms application for managing member records using a MySQL database.</p>
+                    <span class="tag">MySQL</span>
+                    <span class="tag">Windows-forms</span>
+                    <a class="btn" href="https://github.com/shadyamr504/Company-DataBase" target="_blank">Demo</a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    
+    <section class="container" id="Achievements">
+        <h2 class="section-title reveal">Achievements & Awards</h2>
+        <div class="grid">
+            <div class="Achievements reveal">
+                <h3>Problem Solving Achievements</h3>
+                <p>Solved over 1000 coding problems on various competitive programming sites like Codeforces and
+                    LeetCode.</p>
+            </div>
+            <div class="Achievements reveal" style="transition-delay:.04s">
+                <h3>56rd Overall - ECPC</h3>
+                <p>Achieved 56th out of 250 teams in the ECPC Qualifiers 2023.</p>
+            </div>
+            <div class="Achievements reveal" style="transition-delay:.08s">
+                <h3>Codeforces Pupil</h3>
+                <p>Competitive Programming Platform</p>
+            </div>
+            <div class="Achievements reveal" style="transition-delay:.08s">
+                <h3>Problem setter</h3>
+                <p>Modern Academy ICPC Community (MACPC)</p>
+                <p><strong>Oct 2023 - Jul 2024</strong></p>
+            </div>
+            <div class="Achievements reveal" style="transition-delay:.08s">
+                <h3>Head of Problem setters team</h3>
+                <p>Modern Academy ICPC Community (MACPC)</p>
+                <p><strong>Aug 2024 - Sep 2025</strong></p>
+            </div>
+            <div class="Achievements reveal" style="transition-delay:.08s">
+                <h3>Head of ICPC student branch</h3>
+                <p>Modern Academy ICPC Community (MACPC)</p>
+                <p><strong>Oct 2025 - Present</strong></p>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="container" id="contact">
+        <h2 class="section-title reveal">Contact with me</h2>
+        <p class="section-sub reveal">Have a project in mind? Let's build something beautiful.</p>
+        <form class="reveal" id="contactForm">
+            <input type="text" name="name" placeholder="Your name" required>
+            <input type="email" name="email" placeholder="Email address" required>
+            <textarea name="message" placeholder="Tell me about your project…" required></textarea>
+            <button class="btn primary" type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div style="display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap">
+                <p>© <span id="year"></span> Shady Amr. All rights reserved.</p>
+                <div style="display:flex;gap:10px;align-items:center">
+                    <a class="btn" href="https://github.com/shadyamr504" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a class="btn" href="https://www.linkedin.com/in/shadyamr504/" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a class="btn" href="mailto:shadyamr504@gmail.com" target="_blank">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./scripts/script.js"></script>
+
+</body>
+
+</html>
