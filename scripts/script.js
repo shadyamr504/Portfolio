@@ -12,7 +12,7 @@ themeToggle.addEventListener('click', () => {
     localStorage.setItem('theme', document.documentElement.classList.contains('light') ? 'light' : 'dark');
 });
 
-// Year set
+
 document.getElementById('year').textContent = new Date().getFullYear();
 
 // Reveal on scroll using IntersectionObserver
@@ -51,4 +51,5 @@ document.querySelectorAll('.skill').forEach(card => {
     card.addEventListener('mouseleave', () => {
         card.style.transform = '';
     });
+
 });
