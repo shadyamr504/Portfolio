@@ -547,4 +547,54 @@ footer {
         transition: none !important;
         scroll-behavior: auto
     }
+
+}
+@media (max-width: 880px) {
+  .hero-grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .hero .cta {
+    justify-content: center;
+  }
+
+  .avatar-card {
+    margin: 0 auto;
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 700px) {
+  .skills-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skills-category {
+    min-width: 100%;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    grid-column: span 1;
+  }
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  .lead {
+    font-size: 14px;
+  }
+
+  .btn {
+    width: 100%;
+    justify-content: center;
+  }
 }
